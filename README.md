@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 A simple first project on designing a QR component through CSS and HTML.
 
 ### Screenshot
-![](../qr-code-component-main/screenshots/desktop.png)
-![](../qr-code-component-main/screenshots/mobile.png)
+![desktop screenshot](./screenshots/desktop.png)
+![mobile screenshot](./screenshots/mobile.png)
 
 ### Links
 
