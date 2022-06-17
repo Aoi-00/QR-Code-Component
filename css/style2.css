@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* root selects the BASE HTML element (<html>)!! */
+:root {
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* { /* resets all padding margin */
+    margin:0;
+    padding: 0;
+    font-family:'Outfit';
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display:grid;
+    place-items: center; /* Grid way to center items! */
+    background-color: #d5e1ef;
+}
+
+.container img {
+    width: 280px;
+    border-radius: 10px;
+}
+
+.card {
+    width: 280px;
+    height: min-content;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card > p { /* all p elements that are direct children of card*/
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--dark-blue);
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+.card > h5 {
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--grayish-blue);
+    margin-top: 15px;
+    padding: 0 8px;
+}
